@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Je</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="about.css">
+        <link rel="icon" type="image/x-icon" href="https://bonhomme.lol/logo.svg">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+
+        <div class="button_container" id="toggle"><span class="top"></span></span></span><span class="bottom"></span></div>
+        <div class="overlay" id="overlay">
+            <nav class="overlay-menu">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="tool.html">Tools</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <header>
+            <nav>
+                <div class="logo">
+                    <img src="https://bonhomme.lol/logo.svg">
+                </div>
+            </nav>
+        </header>
+        
+        <main>
+            <div class="about">
+                <p class="about-head">About</p>
+                <div class="about-image-self">
+                    <p>this is me:</p>
+                    <img class="imgHead1" src="me.jpg">
+                    <p>Ok this WAS me some years ago. <br>
+                       I currently look more like this:
+                    </p>
+                    <img class="imgHead2" src="mRN.jpg">
+                </div>
+
+                <div class="about-txt-intro">
+                    <p>Hello, my name is Jan Emmanuel Dela Cruz, but you can call me JE. I'm a 16-year-old living in the Philippines, and I have a diverse range of hobbies and interests.
+                        <br><br>
+                        One of my favorite pastimes is coding, and I love to explore the latest advancements in technology. In addition, I have a passion for singing and playing basketball, and I also enjoy playing chess. When I'm not busy with my hobbies, I love to listen to music, and some of my favorite artists include Arctic Monkeys, XXXTentacion, and Juice WRLD. I'm also an avid gamer and enjoy playing video games such as Valorant and Mobile Legends.
+                        <br><br>
+                        In my free time,I spend quality time with my family and friends, whether it's going on outdoor adventures like hiking and camping or just hanging out and watching movies.
+                        <br><br>
+                        Overall, I strive to maintain a balanced and fulfilling lifestyle by pursuing my interests and hobbies while also making time for the people who matter most to me.</p>
+                        
+                </div>
+            </div>
+        </main>
+
+        <script>
+            $('#toggle').click(function() {
+            $(this).toggleClass('active');
+            $('#overlay').toggleClass('open');
+        });
+        </script>
+</body>
+</html>
